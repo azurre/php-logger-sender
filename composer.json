@@ -1,0 +1,14 @@
+{
+    "name": "azurre/php-logger-sender",
+    "version": "1.0.0",
+    "require": {
+        "ext-json": "*",
+        "azurre/php-simple-logger": "^1.0",
+        "azurre/php-simple-http": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Azurre\\Component\\": "src/"
+        }
+    }
+}
